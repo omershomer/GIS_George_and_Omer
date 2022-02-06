@@ -1,0 +1,1777 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13010573
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2019 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2019 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Land Area (Sq. Miles)
+         Universe:  Area Total
+         Name:      A00003
+         Variables:
+            A00003_001:   Area Total:
+            A00003_002:      Area (Land)
+            A00003_003:      Area (Water)
+
+
+      4. Sex
+         Universe:  Total Population
+         Name:      A02001
+         Variables:
+            A02001_001:   Total Population:
+            A02001_002:      Male
+            A02001_003:      Female
+
+
+      5. Sex by Age
+         Universe:  Total Population
+         Name:      A02002
+         Variables:
+            A02002_001:   Total Population:
+            A02002_002:      Male:
+            A02002_003:         Under 5 Years
+            A02002_004:         5 to 9 Years
+            A02002_005:         10 to 14 Years
+            A02002_006:         15 to 17 Years
+            A02002_007:         18 to 24 Years
+            A02002_008:         25 to 34 Years
+            A02002_009:         35 to 44 Years
+            A02002_010:         45 to 54 Years
+            A02002_011:         55 to 64 Years
+            A02002_012:         65 to 74 Years
+            A02002_013:         75 to 84 Years
+            A02002_014:         85 Years and Over
+            A02002_015:      Female:
+            A02002_016:         Under 5 Years
+            A02002_017:         5 to 9 Years
+            A02002_018:         10 to 14 Years
+            A02002_019:         15 to 17 Years
+            A02002_020:         18 to 24 Years
+            A02002_021:         25 to 34 Years
+            A02002_022:         35 to 44 Years
+            A02002_023:         45 to 54 Years
+            A02002_024:         55 to 64 Years
+            A02002_025:         65 to 74 Years
+            A02002_026:         75 to 84 Years
+            A02002_027:         85 Years and Over
+
+
+      6. Sex by Age - Cumulative (Less)
+         Universe:  Total Population
+         Name:      A02002A
+         Variables:
+            A02002A_001:   Total Population:
+            A02002A_002:      Male:
+            A02002A_003:         Less than 5 Years
+            A02002A_004:         Less than 10 Years
+            A02002A_005:         Less than 15 Years
+            A02002A_006:         Less than 18 Years
+            A02002A_007:         Less than 25 Years
+            A02002A_008:         Less than 35 Years
+            A02002A_009:         Less than 45 Years
+            A02002A_010:         Less than 55 Years
+            A02002A_011:         Less than 65 Years
+            A02002A_012:         Less than 75 Years
+            A02002A_013:         Less than 85 Years
+            A02002A_014:      Female:
+            A02002A_015:         Less than 5 Years
+            A02002A_016:         Less than 10 Years
+            A02002A_017:         Less than 15 Years
+            A02002A_018:         Less than 18 Years
+            A02002A_019:         Less than 25 Years
+            A02002A_020:         Less than 35 Years
+            A02002A_021:         Less than 45 Years
+            A02002A_022:         Less than 55 Years
+            A02002A_023:         Less than 65 Years
+            A02002A_024:         Less than 75 Years
+            A02002A_025:         Less than 85 Years
+
+
+      7. Sex by Age - Cumulative (More)
+         Universe:  Total Population
+         Name:      A02002B
+         Variables:
+            A02002B_001:   Total Population:
+            A02002B_002:      Male:
+            A02002B_003:         More than 5 Years
+            A02002B_004:         More than 10 Years
+            A02002B_005:         More than 15 Years
+            A02002B_006:         More than 18 Years
+            A02002B_007:         More than 25 Years
+            A02002B_008:         More than 35 Years
+            A02002B_009:         More than 45 Years
+            A02002B_010:         More than 55 Years
+            A02002B_011:         More than 65 Years
+            A02002B_012:         More than 75 Years
+            A02002B_013:         More than 85 Years
+            A02002B_014:      Female:
+            A02002B_015:         More than 5 Years
+            A02002B_016:         More than 10 Years
+            A02002B_017:         More than 15 Years
+            A02002B_018:         More than 18 Years
+            A02002B_019:         More than 25 Years
+            A02002B_020:         More than 35 Years
+            A02002B_021:         More than 45 Years
+            A02002B_022:         More than 55 Years
+            A02002B_023:         More than 65 Years
+            A02002B_024:         More than 75 Years
+            A02002B_025:         More than 85 Years
+
+
+      8. Sex by Age (Collapsed Version)
+         Universe:  Total Population
+         Name:      B02002
+         Variables:
+            B02002_001:   Total Population:
+            B02002_002:      Male:
+            B02002_003:         Under 18 Years
+            B02002_004:         18 to 34 Years
+            B02002_005:         35 to 64 Years
+            B02002_006:         65 Years and Over
+            B02002_007:      Female:
+            B02002_008:         Under 18 Years
+            B02002_009:         18 to 34 Years
+            B02002_010:         35 to 64 Years
+            B02002_011:         65 Years and Over
+
+
+      9. Age
+         Universe:  Total Population
+         Name:      A01001
+         Variables:
+            A01001_001:   Total Population:
+            A01001_002:      Under 5 Years
+            A01001_003:      5 to 9 Years
+            A01001_004:      10 to 14 Years
+            A01001_005:      15 to 17 Years
+            A01001_006:      18 to 24 Years
+            A01001_007:      25 to 34 Years
+            A01001_008:      35 to 44 Years
+            A01001_009:      45 to 54 Years
+            A01001_010:      55 to 64 Years
+            A01001_011:      65 to 74 Years
+            A01001_012:      75 to 84 Years
+            A01001_013:      85 Years and Over
+
+
+      10. Age - Cumulative (Less)
+          Universe:  Total Population
+          Name:      A01001A
+          Variables:
+             A01001A_001:   Total Population:
+             A01001A_002:      Less than 5 Years
+             A01001A_003:      Less than 10 Years
+             A01001A_004:      Less than 15 Years
+             A01001A_005:      Less than 18 Years
+             A01001A_006:      Less than 25 Years
+             A01001A_007:      Less than 35 Years
+             A01001A_008:      Less than 45 Years
+             A01001A_009:      Less than 55 Years
+             A01001A_010:      Less than 65 Years
+             A01001A_011:      Less than 75 Years
+             A01001A_012:      Less than 85 Years
+
+
+      11. Age - Cumulative (More)
+          Universe:  Total Population
+          Name:      A01001B
+          Variables:
+             A01001B_001:   Total Population:
+             A01001B_002:      More than 5 Years
+             A01001B_003:      More than 10 Years
+             A01001B_004:      More than 15 Years
+             A01001B_005:      More than 18 Years
+             A01001B_006:      More than 25 Years
+             A01001B_007:      More than 35 Years
+             A01001B_008:      More than 45 Years
+             A01001B_009:      More than 55 Years
+             A01001B_010:      More than 65 Years
+             A01001B_011:      More than 75 Years
+             A01001B_012:      More than 85 Years
+
+
+      12. Age (Detailed Version)
+          Universe:  Total population
+          Name:      C01001
+          Variables:
+             C01001_001:   Total:
+             C01001_002:      Under 5 Years
+             C01001_003:      5 to 9 Years
+             C01001_004:      10 to 14 Years
+             C01001_005:      15 to 17 Years
+             C01001_006:      18 and 19 Years
+             C01001_007:      20 Years
+             C01001_008:      21 Years
+             C01001_009:      22 to 24 Years
+             C01001_010:      25 to 29 Years
+             C01001_011:      30 to 34 Years
+             C01001_012:      35 to 39 Years
+             C01001_013:      40 to 44 Years
+             C01001_014:      45 to 49 Years
+             C01001_015:      50 to 54 Years
+             C01001_016:      55 to 59 Years
+             C01001_017:      60 and 61 Years
+             C01001_018:      62 to 64 Years
+             C01001_019:      65 and 66 Years
+             C01001_020:      67 to 69 Years
+             C01001_021:      70 to 74 Years
+             C01001_022:      75 to 79 Years
+             C01001_023:      80 to 84 Years
+             C01001_024:      85 Years and Over
+
+
+      13. Age (Detailed Version) - Cumulative (Less)
+          Universe:  Total population
+          Name:      C01001A
+          Variables:
+             C01001A_001:   Total:
+             C01001A_002:      Less than 5 Years
+             C01001A_003:      Less than 10 Years
+             C01001A_004:      Less than 15 Years
+             C01001A_005:      Less than 18 Years
+             C01001A_006:      Less than 20 Years
+             C01001A_007:      Less than 21 Years
+             C01001A_008:      Less than 22 Years
+             C01001A_009:      Less than 25 Years
+             C01001A_010:      Less than 30 Years
+             C01001A_011:      Less than 35 Years
+             C01001A_012:      Less than 40 Years
+             C01001A_013:      Less than 45 Years
+             C01001A_014:      Less than 50 Years
+             C01001A_015:      Less than 55 Years
+             C01001A_016:      Less than 60 Years
+             C01001A_017:      Less than 62 Years
+             C01001A_018:      Less than 65 Years
+             C01001A_019:      Less than 67 Years
+             C01001A_020:      Less than 70 Years
+             C01001A_021:      Less than 75 Years
+             C01001A_022:      Less than 80 Years
+             C01001A_023:      Less than 85 Years
+
+
+      14. Age (Detailed Version) - Cumulative (More)
+          Universe:  Total population
+          Name:      C01001B
+          Variables:
+             C01001B_001:   Total:
+             C01001B_002:      More than 5 Years
+             C01001B_003:      More than 10 Years
+             C01001B_004:      More than 15 Years
+             C01001B_005:      More than 18 Years
+             C01001B_006:      More than 20 Years
+             C01001B_007:      More than 21 Years
+             C01001B_008:      More than 22 Years
+             C01001B_009:      More than 25 Years
+             C01001B_010:      More than 30 Years
+             C01001B_011:      More than 35 Years
+             C01001B_012:      More than 40 Years
+             C01001B_013:      More than 45 Years
+             C01001B_014:      More than 50 Years
+             C01001B_015:      More than 55 Years
+             C01001B_016:      More than 60 Years
+             C01001B_017:      More than 62 Years
+             C01001B_018:      More than 65 Years
+             C01001B_019:      More than 67 Years
+             C01001B_020:      More than 70 Years
+             C01001B_021:      More than 75 Years
+             C01001B_022:      More than 80 Years
+             C01001B_023:      More than 85 Years
+
+
+      15. Age (Short Version)
+          Universe:  Total Population
+          Name:      B01001
+          Variables:
+             B01001_001:   Total Population:
+             B01001_002:      Under 18 Years
+             B01001_003:      18 to 34 Years
+             B01001_004:      35 to 64 Years
+             B01001_005:      65 and Over
+
+
+      16. Age for Male Population (Short Version)
+          Universe:  Male Population
+          Name:      A01002B
+          Variables:
+             A01002B_001:   Male Population:
+             A01002B_002:      Under 18 Years
+             A01002B_003:      18 to 34 Years
+             A01002B_004:      35 to 64 Years
+             A01002B_005:      65 and Over
+
+
+      17. Age for Female Population (Short Version)
+          Universe:  Female Population
+          Name:      A01002A
+          Variables:
+             A01002A_001:   Female Population:
+             A01002A_002:      Under 18 Years
+             A01002A_003:      18 to 34 Years
+             A01002A_004:      35 to 64 Years
+             A01002A_005:      65 and Over
+
+
+      18. Median Age by Sex
+          Universe:  Total Population
+          Name:      A01004
+          Variables:
+             A01004_001:   Median Age:
+             A01004_002:      Male Population
+             A01004_003:      Female Population
+
+
+      19. Race
+          Universe:  Total Population
+          Name:      A03001
+          Variables:
+             A03001_001:   Total Population:
+             A03001_002:      White Alone
+             A03001_003:      Black or African American Alone
+             A03001_004:      American Indian and Alaska Native Alone
+             A03001_005:      Asian Alone
+             A03001_006:      Native Hawaiian and Other Pacific Islander Alone
+             A03001_007:      Some Other Race Alone
+             A03001_008:      Two or More Races
+
+
+      20. Hispanic or Latino by Race
+          Universe:  Total Population
+          Name:      A04001
+          Variables:
+             A04001_001:   Total Population
+             A04001_002:      Not Hispanic or Latino:
+             A04001_003:         White Alone
+             A04001_004:         Black or African American Alone
+             A04001_005:         American Indian and Alaska Native Alone
+             A04001_006:         Asian Alone
+             A04001_007:         Native Hawaiian and Other Pacific Islander Alone
+             A04001_008:         Some Other Race Alone
+             A04001_009:         Two or More Races
+             A04001_010:      Hispanic or Latino:
+             A04001_011:         White Alone
+             A04001_012:         Black or African American Alone
+             A04001_013:         American Indian and Alaska Native Alone
+             A04001_014:         Asian Alone
+             A04001_015:         Native Hawaiian and Other Pacific Islander Alone
+             A04001_016:         Some Other Race Alone
+             A04001_017:         Two or More Races
+
+
+      21. Hispanic or Latino by Race (Collapsed Version)
+          Universe:  Total Population
+          Name:      B04001
+          Variables:
+             B04001_001:   Total Population:
+             B04001_002:      Not Hispanic or Latino:
+             B04001_003:         White Alone
+             B04001_004:         Black or African American Alone
+             B04001_005:         American Indian and Alaska Native Alone
+             B04001_006:         Asian Alone
+             B04001_007:         Native Hawaiian and Other Pacific Islander Alone
+             B04001_008:         Some Other Race Alone
+             B04001_009:         Two or More Races
+             B04001_010:      Hispanic or Latino
+
+
+      22. Hispanic or Latino by Specific Origin
+          Universe:  Total population
+          Name:      A04002
+          Variables:
+             A04002_001:   Total Population
+             A04002_002:      Not Hispanic or Latino
+             A04002_003:      Hispanic or Latino:
+             A04002_004:         Mexican
+             A04002_005:         Puerto Rican
+             A04002_006:         Cuban
+             A04002_007:         Dominican Republic
+             A04002_008:         Central American:
+             A04002_009:            Costa Rican
+             A04002_010:            Guatemalan
+             A04002_011:            Honduran
+             A04002_012:            Nicaraguan
+             A04002_013:            Panamanian
+             A04002_014:            Salvadoran
+             A04002_015:            Other Central American
+             A04002_016:         South American:
+             A04002_017:            Argentinean
+             A04002_018:            Bolivian
+             A04002_019:            Chilean
+             A04002_020:            Colombian
+             A04002_021:            Ecuadorian
+             A04002_022:            Paraguayan
+             A04002_023:            Peruvian
+             A04002_024:            Uruguayan
+             A04002_025:            Venezuelan
+             A04002_026:            Other South American
+             A04002_027:         Other Hispanic or Latino:
+             A04002_028:            Spaniard
+             A04002_029:            Spanish
+             A04002_030:            Spanish American
+             A04002_031:            All Other Hispanic or Latino
+
+
+      23. Asian by Specific OrigIn (Asian with One Asian Category for Selected Groups)
+          Universe:  Total Asian categories tallied for people with one Asian category only and people with no specific Asian category reported
+          Name:      A03002
+          Variables:
+             A03002_001:   Total:
+             A03002_002:      Asian Indian
+             A03002_003:      Bangladeshi
+             A03002_020:      Bhutanese
+             A03002_021:      Burmese
+             A03002_004:      Cambodian
+             A03002_005:      Chinese, Except Taiwanese
+             A03002_006:      Filipino
+             A03002_007:      Hmong
+             A03002_008:      Indonesian
+             A03002_009:      Japanese
+             A03002_010:      Korean
+             A03002_011:      Laotian
+             A03002_012:      Malaysian
+             A03002_022:      Mongolian
+             A03002_023:      Nepalese
+             A03002_024:      Okinawan
+             A03002_013:      Pakistani
+             A03002_014:      Sri Lankan
+             A03002_015:      Taiwanese
+             A03002_016:      Thai
+             A03002_017:      Vietnamese
+             A03002_018:      Other Asian, Specified
+             A03002_019:      Other Asian, Not Specified
+             A03002_025:      Two or More Asian
+
+
+      24. Households by Household Type
+          Universe:  Households
+          Name:      A10008
+          Variables:
+             A10008_001:   Households:
+             A10008_002:      Family Households:
+             A10008_003:         Married-Couple Family
+             A10008_004:         Other Family:
+             A10008_005:            Male Householder, No Wife Present
+             A10008_006:            Female Householder, No Husband Present
+             A10008_007:      Nonfamily Households:
+             A10008_008:         Male Householder
+             A10008_009:         Female Householder
+
+
+      25. Housing Units by Household Type (Including Living Alone) and Age of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10025
+          Variables:
+             A10025_001:   Occupied Housing Units:
+             A10025_002:      Family Households
+             A10025_003:         Married-Couple Family
+             A10025_004:            Householder 15 to 34 Years
+             A10025_005:            Householder 35 to 64 Years
+             A10025_006:            Householder 65 Years and Over
+             A10025_007:         Other Family
+             A10025_008:            Male Householder, No Wife Present
+             A10025_009:               Householder 15 to 34 Years
+             A10025_010:               Householder 35 to 64 Years
+             A10025_011:               Householder 65 Years and Over
+             A10025_012:            Female Householder, No Husband Present
+             A10025_013:               Householder 15 to 34 Years
+             A10025_014:               Householder 35 to 64 Years
+             A10025_015:               Householder 65 Years and Over
+             A10025_016:      Nonfamily Households
+             A10025_017:         Householder Living Alone
+             A10025_018:            Householder 15 to 34 Years
+             A10025_019:            Householder 35 to 64 Years
+             A10025_020:            Householder 65 Years and Over
+             A10025_021:         Householder Not Living Alone
+             A10025_022:            Householder 15 to 34 Years
+             A10025_023:            Householder 35 to 64 Years
+             A10025_024:            Householder 65 Years and Over
+
+
+      26. Household Type (Including Living Alone) and Age of Householder (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10004B
+          Variables:
+             A10004B_001:   Renter-Occupied Housing Units:
+             A10004B_002:      Family Households:
+             A10004B_003:         Married-Couple Family:
+             A10004B_004:            Householder 15 to 34 Years
+             A10004B_005:            Householder 35 to 64 Years
+             A10004B_006:            Householder 65 Years and Over
+             A10004B_007:         Other Family:
+             A10004B_008:            Male Householder, No Wife Present:
+             A10004B_009:               Householder 15 to 34 Years
+             A10004B_010:               Householder 35 to 64 Years
+             A10004B_011:               Householder 65 Years and Over
+             A10004B_012:            Female Householder, No Husband Present:
+             A10004B_013:               Householder 15 to 34 Years
+             A10004B_014:               Householder 35 to 64 Years
+             A10004B_015:               Householder 65 Years and Over
+             A10004B_016:      Nonfamily Households:
+             A10004B_017:         Householder Living Alone:
+             A10004B_018:            Householder 15 to 34 Years
+             A10004B_019:            Householder 35 to 64 Years
+             A10004B_020:            Householder 65 Years and Over
+             A10004B_021:         Householder Not Living Alone:
+             A10004B_022:            Householder 15 to 34 Years
+             A10004B_023:            Householder 35 to 64 Years
+             A10004B_024:            Householder 65 Years and Over
+
+
+      27. Housing Units by Household Size
+          Universe:  Universe:  Occupied housing units
+          Name:      A10024
+          Variables:
+             A10024_001:   Occupied Housing Units:
+             A10024_002:      1-Person Household
+             A10024_003:      2-Person Household
+             A10024_004:      3-Person Household
+             A10024_005:      4-Person Household
+             A10024_006:      5-Person Household
+             A10024_007:      6-Person Household
+             A10024_008:      7-or-More Person Household
+
+
+      28. Household Size (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10002B
+          Variables:
+             A10002B_001:   Renter-Occupied Housing Units:
+             A10002B_002:      1-Person Household
+             A10002B_003:      2-Person Household
+             A10002B_004:      3-Person Household
+             A10002B_005:      4-Person Household
+             A10002B_006:      5-Person Household
+             A10002B_007:      6-Person Household
+             A10002B_008:      7-or-More Person Household
+
+
+      29. Housing Units by Families and Presence of Own Children
+          Universe:  Universe:  Occupied housing units
+          Name:      A10022
+          Variables:
+             A10022_001:   Occupied Housing Units:
+             A10022_002:      With Related Children of the Householder Under 18:
+             A10022_003:         With Own Children of the Householder Under 18:
+             A10022_004:            Under 6 Years Only
+             A10022_005:            Under 6 Years and 6 to 17 Years
+             A10022_006:            6 to 17 Years
+             A10022_007:         No Own Children of the Householder Under 18
+             A10022_008:      No Related Children of the Householder Under 18
+
+
+      30. Families and Presence of Own Children (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10005B
+          Variables:
+             A10005B_001:   Renter-Occupied Housing Units:
+             A10005B_002:      With Related Children of the Householder Under 18
+             A10005B_003:         With Own Children of the Householder Under 18
+             A10005B_004:            Under 6 Years Only
+             A10005B_005:            Under 6 Years and 6 to 17 Years
+             A10005B_006:            6 to 17 Years
+             A10005B_007:         No Own Children of the Householder Under 18
+             A10005B_008:      No Related Children of the Householder Under 18
+
+
+      31. Households by Presence of People Under 18 Years by Household Type
+          Universe:  Households
+          Name:      A10009
+          Variables:
+             A10009_001:   Households:
+             A10009_002:      Households with One or More People Under 18 Years:
+             A10009_003:         Family Households:
+             A10009_004:            Married-Couple Family
+             A10009_005:            Other Family (Single Parent):
+             A10009_006:               Male Householder, No Wife Present
+             A10009_007:               Female Householder, No Husband Present
+             A10009_008:         Nonfamily Households:
+             A10009_009:            Male Householder
+             A10009_010:            Female Householder
+             A10009_011:      Households with No People Under 18 Years:
+             A10009_012:         Family Households:
+             A10009_013:            Married-Couple Family
+             A10009_014:            Other Family:
+             A10009_015:               Male Householder, No Wife Present
+             A10009_016:               Female Householder, No Husband Present
+             A10009_017:         Nonfamily Households:
+             A10009_018:            Male Householder
+             A10009_019:            Female Householder
+
+
+      32. Households by Race of Householder
+          Universe:  Households
+          Name:      A10010
+          Variables:
+             A10010_001:   Households:
+             A10010_002:      With a Householder Who Is White Alone
+             A10010_003:      With a Householder Who Is Black or African  American Alone
+             A10010_004:      With a Householder Who Is American Indian and  Alaska Native Alone
+             A10010_005:      With a Householder Who Is Asian Alone
+             A10010_006:      With a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+             A10010_007:      With a Householder Who Is Some Other Race Alone
+             A10010_008:      With a Householder Who Is Two or More Races
+             A10010_009:      With a Householder Who Is Hispanic or Latino
+             A10010_010:      With a Householder Who Is White Alone, Not  Hispanic or Latino
+
+
+      33. Race (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A03001B
+          Variables:
+             A03001B_001:   Renter-Occupied Housing Units:
+             A03001B_002:      White Alone Householder
+             A03001B_003:      Black or African American Alone Householder
+             A03001B_004:      American Indian and Alaska Native Alone Householder
+             A03001B_005:      Asian Alone Householder
+             A03001B_006:      Native Hawaiian and Other Pacific Islander Alone Householder
+             A03001B_007:      Some Other Race Alone Householder
+             A03001B_008:      Two or More Races Householder
+             A03001B_009:      White Alone, Not Hispanic or Latino Householder
+             A03001B_010:      Hispanic or Latino Householder
+
+
+      34. Housing Units by Hispanic Status of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10023
+          Variables:
+             A10023_001:   Occupied Housing Units:
+             A10023_002:      Hispanic or Latino Householder
+             A10023_003:      Not Hispanic or Latino Householder
+
+
+      35. Housing Units by Age of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10020
+          Variables:
+             A10020_001:   Occupied Housing Units:
+             A10020_002:      Householder 15 to 24 Years
+             A10020_003:      Householder 25 to 34 Years
+             A10020_004:      Householder 35 to 44 Years
+             A10020_005:      Householder 45 to 54 Years
+             A10020_006:      Householder 55 to 59 Years
+             A10020_007:      Householder 60 to 64 Years
+             A10020_008:      Householder 65 to 74 Years
+             A10020_009:      Householder 75 to 84 Years
+             A10020_010:      Householder 85 Years and Over
+
+
+      36. Age of Householder (Renter-Occupied Housing Units)
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A01003B
+          Variables:
+             A01003B_001:   Renter-Occupied Housing Units:
+             A01003B_002:      Householder 15 to 24 Years
+             A01003B_003:      Householder 25 to 34 Years
+             A01003B_004:      Householder 35 to 44 Years
+             A01003B_005:      Householder 45 to 54 Years
+             A01003B_006:      Householder 55 to 59 Years
+             A01003B_007:      Householder 60 to 64 Years
+             A01003B_008:      Householder 65 to 74 Years
+             A01003B_009:      Householder 75 to 84 Years
+             A01003B_010:      Householder 85 Years and Over
+
+
+      37. Household Type (Including Living Alone) By Relationship
+          Universe:  Universe:  Total population
+          Name:      A10007A
+          Variables:
+             A10007A_001:   Total:
+             A10007A_002:      In Households:
+             A10007A_003:         Householder:
+             A10007A_004:            Male:
+             A10007A_005:               Living Alone
+             A10007A_006:               Not Living Alone
+             A10007A_007:            Female:
+             A10007A_008:               Living Alone
+             A10007A_009:               Not Living Alone
+             A10007A_010:         Opposite-Sex Spouse
+             A10007A_011:         Same-Sex Spouse
+             A10007A_012:         Opposite-Sex Unmarried Partner
+             A10007A_013:         Same-Sex Unmarried Partner
+             A10007A_014:         Child:
+             A10007A_015:            Biological Child
+             A10007A_016:            Adopted Child
+             A10007A_017:            Stepchild
+             A10007A_018:         Grandchild
+             A10007A_019:         Brother Or Sister
+             A10007A_020:         Parent
+             A10007A_021:         Parent-In-Law
+             A10007A_022:         Son-In-Law Or Daughter-In-Law
+             A10007A_023:         Other Relatives
+             A10007A_024:         Foster Child
+             A10007A_025:         Other Nonrelatives
+             A10007A_026:      In Group Quarters
+
+
+      38. Average Household Size
+          Universe:  Occupied Households
+          Name:      A10003
+          Variables:
+             A10003_001:   Average Household Size
+
+
+      39. Average Household Size of Renter-Occupied Housing Units
+          Universe:  Universe:  Renter-Occupied Housing Units
+          Name:      A10003B
+          Variables:
+             A10003B_001:   Average Household Size for Renter-Occupied Housing Units
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      QName:          Qualifying Name
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A00003_001:     Area Total:
+      A00003_002:     Area Total: Area (Land)
+      A00003_003:     Area Total: Area (Water)
+      PCT_A00003_002: % Area Total: Area (Land)
+      PCT_A00003_003: % Area Total: Area (Water)
+      A02001_001:     Total Population:
+      A02001_002:     Total Population: Male
+      A02001_003:     Total Population: Female
+      PCT_A02001_002: % Total Population: Male
+      PCT_A02001_003: % Total Population: Female
+      A02002_001:     Total Population:
+      A02002_002:     Total Population: Male
+      A02002_003:     Total Population: Male: Under 5 Years
+      A02002_004:     Total Population: Male: 5 to 9 Years
+      A02002_005:     Total Population: Male: 10 to 14 Years
+      A02002_006:     Total Population: Male: 15 to 17 Years
+      A02002_007:     Total Population: Male: 18 to 24 Years
+      A02002_008:     Total Population: Male: 25 to 34 Years
+      A02002_009:     Total Population: Male: 35 to 44 Years
+      A02002_010:     Total Population: Male: 45 to 54 Years
+      A02002_011:     Total Population: Male: 55 to 64 Years
+      A02002_012:     Total Population: Male: 65 to 74 Years
+      A02002_013:     Total Population: Male: 75 to 84 Years
+      A02002_014:     Total Population: Male: 85 Years and Over
+      A02002_015:     Total Population: Female
+      A02002_016:     Total Population: Female: Under 5 Years
+      A02002_017:     Total Population: Female: 5 to 9 Years
+      A02002_018:     Total Population: Female: 10 to 14 Years
+      A02002_019:     Total Population: Female: 15 to 17 Years
+      A02002_020:     Total Population: Female: 18 to 24 Years
+      A02002_021:     Total Population: Female: 25 to 34 Years
+      A02002_022:     Total Population: Female: 35 to 44 Years
+      A02002_023:     Total Population: Female: 45 to 54 Years
+      A02002_024:     Total Population: Female: 55 to 64 Years
+      A02002_025:     Total Population: Female: 65 to 74 Years
+      A02002_026:     Total Population: Female: 75 to 84 Years
+      A02002_027:     Total Population: Female: 85 Years and Over
+      PCT_A02002_002: % Total Population: Male
+      PCT_A02002_003: % Total Population: Male: Under 5 Years
+      PCT_A02002_004: % Total Population: Male: 5 to 9 Years
+      PCT_A02002_005: % Total Population: Male: 10 to 14 Years
+      PCT_A02002_006: % Total Population: Male: 15 to 17 Years
+      PCT_A02002_007: % Total Population: Male: 18 to 24 Years
+      PCT_A02002_008: % Total Population: Male: 25 to 34 Years
+      PCT_A02002_009: % Total Population: Male: 35 to 44 Years
+      PCT_A02002_010: % Total Population: Male: 45 to 54 Years
+      PCT_A02002_011: % Total Population: Male: 55 to 64 Years
+      PCT_A02002_012: % Total Population: Male: 65 to 74 Years
+      PCT_A02002_013: % Total Population: Male: 75 to 84 Years
+      PCT_A02002_014: % Total Population: Male: 85 Years and Over
+      PCT_A02002_015: % Total Population: Female
+      PCT_A02002_016: % Total Population: Female: Under 5 Years
+      PCT_A02002_017: % Total Population: Female: 5 to 9 Years
+      PCT_A02002_018: % Total Population: Female: 10 to 14 Years
+      PCT_A02002_019: % Total Population: Female: 15 to 17 Years
+      PCT_A02002_020: % Total Population: Female: 18 to 24 Years
+      PCT_A02002_021: % Total Population: Female: 25 to 34 Years
+      PCT_A02002_022: % Total Population: Female: 35 to 44 Years
+      PCT_A02002_023: % Total Population: Female: 45 to 54 Years
+      PCT_A02002_024: % Total Population: Female: 55 to 64 Years
+      PCT_A02002_025: % Total Population: Female: 65 to 74 Years
+      PCT_A02002_026: % Total Population: Female: 75 to 84 Years
+      PCT_A02002_027: % Total Population: Female: 85 Years and Over
+      A02002A_001:    Total Population:
+      A02002A_002:    Total Population: Male
+      A02002A_003:    Total Population: Male: Less than 5 Years
+      A02002A_004:    Total Population: Male: Less than 10 Years
+      A02002A_005:    Total Population: Male: Less than 15 Years
+      A02002A_006:    Total Population: Male: Less than 18 Years
+      A02002A_007:    Total Population: Male: Less than 25 Years
+      A02002A_008:    Total Population: Male: Less than 35 Years
+      A02002A_009:    Total Population: Male: Less than 45 Years
+      A02002A_010:    Total Population: Male: Less than 55 Years
+      A02002A_011:    Total Population: Male: Less than 65 Years
+      A02002A_012:    Total Population: Male: Less than 75 Years
+      A02002A_013:    Total Population: Male: Less than 85 Years
+      A02002A_014:    Total Population: Female
+      A02002A_015:    Total Population: Female: Less than 5 Years
+      A02002A_016:    Total Population: Female: Less than 10 Years
+      A02002A_017:    Total Population: Female: Less than 15 Years
+      A02002A_018:    Total Population: Female: Less than 18 Years
+      A02002A_019:    Total Population: Female: Less than 25 Years
+      A02002A_020:    Total Population: Female: Less than 35 Years
+      A02002A_021:    Total Population: Female: Less than 45 Years
+      A02002A_022:    Total Population: Female: Less than 55 Years
+      A02002A_023:    Total Population: Female: Less than 65 Years
+      A02002A_024:    Total Population: Female: Less than 75 Years
+      A02002A_025:    Total Population: Female: Less than 85 Years
+      PCT_A02002A_002: % Total Population: Male
+      PCT_A02002A_003: % Total Population: Male: Less than 5 Years
+      PCT_A02002A_004: % Total Population: Male: Less than 10 Years
+      PCT_A02002A_005: % Total Population: Male: Less than 15 Years
+      PCT_A02002A_006: % Total Population: Male: Less than 18 Years
+      PCT_A02002A_007: % Total Population: Male: Less than 25 Years
+      PCT_A02002A_008: % Total Population: Male: Less than 35 Years
+      PCT_A02002A_009: % Total Population: Male: Less than 45 Years
+      PCT_A02002A_010: % Total Population: Male: Less than 55 Years
+      PCT_A02002A_011: % Total Population: Male: Less than 65 Years
+      PCT_A02002A_012: % Total Population: Male: Less than 75 Years
+      PCT_A02002A_013: % Total Population: Male: Less than 85 Years
+      PCT_A02002A_014: % Total Population: Female
+      PCT_A02002A_015: % Total Population: Female: Less than 5 Years
+      PCT_A02002A_016: % Total Population: Female: Less than 10 Years
+      PCT_A02002A_017: % Total Population: Female: Less than 15 Years
+      PCT_A02002A_018: % Total Population: Female: Less than 18 Years
+      PCT_A02002A_019: % Total Population: Female: Less than 25 Years
+      PCT_A02002A_020: % Total Population: Female: Less than 35 Years
+      PCT_A02002A_021: % Total Population: Female: Less than 45 Years
+      PCT_A02002A_022: % Total Population: Female: Less than 55 Years
+      PCT_A02002A_023: % Total Population: Female: Less than 65 Years
+      PCT_A02002A_024: % Total Population: Female: Less than 75 Years
+      PCT_A02002A_025: % Total Population: Female: Less than 85 Years
+      A02002B_001:    Total Population:
+      A02002B_002:    Total Population: Male
+      A02002B_003:    Total Population: Male: More than 5 Years
+      A02002B_004:    Total Population: Male: More than 10 Years
+      A02002B_005:    Total Population: Male: More than 15 Years
+      A02002B_006:    Total Population: Male: More than 18 Years
+      A02002B_007:    Total Population: Male: More than 25 Years
+      A02002B_008:    Total Population: Male: More than 35 Years
+      A02002B_009:    Total Population: Male: More than 45 Years
+      A02002B_010:    Total Population: Male: More than 55 Years
+      A02002B_011:    Total Population: Male: More than 65 Years
+      A02002B_012:    Total Population: Male: More than 75 Years
+      A02002B_013:    Total Population: Male: More than 85 Years
+      A02002B_014:    Total Population: Female
+      A02002B_015:    Total Population: Female: More than 5 Years
+      A02002B_016:    Total Population: Female: More than 10 Years
+      A02002B_017:    Total Population: Female: More than 15 Years
+      A02002B_018:    Total Population: Female: More than 18 Years
+      A02002B_019:    Total Population: Female: More than 25 Years
+      A02002B_020:    Total Population: Female: More than 35 Years
+      A02002B_021:    Total Population: Female: More than 45 Years
+      A02002B_022:    Total Population: Female: More than 55 Years
+      A02002B_023:    Total Population: Female: More than 65 Years
+      A02002B_024:    Total Population: Female: More than 75 Years
+      A02002B_025:    Total Population: Female: More than 85 Years
+      PCT_A02002B_002: % Total Population: Male
+      PCT_A02002B_003: % Total Population: Male: More than 5 Years
+      PCT_A02002B_004: % Total Population: Male: More than 10 Years
+      PCT_A02002B_005: % Total Population: Male: More than 15 Years
+      PCT_A02002B_006: % Total Population: Male: More than 18 Years
+      PCT_A02002B_007: % Total Population: Male: More than 25 Years
+      PCT_A02002B_008: % Total Population: Male: More than 35 Years
+      PCT_A02002B_009: % Total Population: Male: More than 45 Years
+      PCT_A02002B_010: % Total Population: Male: More than 55 Years
+      PCT_A02002B_011: % Total Population: Male: More than 65 Years
+      PCT_A02002B_012: % Total Population: Male: More than 75 Years
+      PCT_A02002B_013: % Total Population: Male: More than 85 Years
+      PCT_A02002B_014: % Total Population: Female
+      PCT_A02002B_015: % Total Population: Female: More than 5 Years
+      PCT_A02002B_016: % Total Population: Female: More than 10 Years
+      PCT_A02002B_017: % Total Population: Female: More than 15 Years
+      PCT_A02002B_018: % Total Population: Female: More than 18 Years
+      PCT_A02002B_019: % Total Population: Female: More than 25 Years
+      PCT_A02002B_020: % Total Population: Female: More than 35 Years
+      PCT_A02002B_021: % Total Population: Female: More than 45 Years
+      PCT_A02002B_022: % Total Population: Female: More than 55 Years
+      PCT_A02002B_023: % Total Population: Female: More than 65 Years
+      PCT_A02002B_024: % Total Population: Female: More than 75 Years
+      PCT_A02002B_025: % Total Population: Female: More than 85 Years
+      B02002_001:     Total Population:
+      B02002_002:     Total Population: Male
+      B02002_003:     Total Population: Male: Under 18 Years
+      B02002_004:     Total Population: Male: 18 to 34 Years
+      B02002_005:     Total Population: Male: 35 to 64 Years
+      B02002_006:     Total Population: Male: 65 Years and Over
+      B02002_007:     Total Population: Female
+      B02002_008:     Total Population: Female: Under 18 Years
+      B02002_009:     Total Population: Female: 18 to 34 Years
+      B02002_010:     Total Population: Female: 35 to 64 Years
+      B02002_011:     Total Population: Female: 65 Years and Over
+      PCT_B02002_002: % Total Population: Male
+      PCT_B02002_003: % Total Population: Male: Under 18 Years
+      PCT_B02002_004: % Total Population: Male: 18 to 34 Years
+      PCT_B02002_005: % Total Population: Male: 35 to 64 Years
+      PCT_B02002_006: % Total Population: Male: 65 Years and Over
+      PCT_B02002_007: % Total Population: Female
+      PCT_B02002_008: % Total Population: Female: Under 18 Years
+      PCT_B02002_009: % Total Population: Female: 18 to 34 Years
+      PCT_B02002_010: % Total Population: Female: 35 to 64 Years
+      PCT_B02002_011: % Total Population: Female: 65 Years and Over
+      A01001_001:     Total Population:
+      A01001_002:     Total Population: Under 5 Years
+      A01001_003:     Total Population: 5 to 9 Years
+      A01001_004:     Total Population: 10 to 14 Years
+      A01001_005:     Total Population: 15 to 17 Years
+      A01001_006:     Total Population: 18 to 24 Years
+      A01001_007:     Total Population: 25 to 34 Years
+      A01001_008:     Total Population: 35 to 44 Years
+      A01001_009:     Total Population: 45 to 54 Years
+      A01001_010:     Total Population: 55 to 64 Years
+      A01001_011:     Total Population: 65 to 74 Years
+      A01001_012:     Total Population: 75 to 84 Years
+      A01001_013:     Total Population: 85 Years and Over
+      PCT_A01001_002: % Total Population: Under 5 Years
+      PCT_A01001_003: % Total Population: 5 to 9 Years
+      PCT_A01001_004: % Total Population: 10 to 14 Years
+      PCT_A01001_005: % Total Population: 15 to 17 Years
+      PCT_A01001_006: % Total Population: 18 to 24 Years
+      PCT_A01001_007: % Total Population: 25 to 34 Years
+      PCT_A01001_008: % Total Population: 35 to 44 Years
+      PCT_A01001_009: % Total Population: 45 to 54 Years
+      PCT_A01001_010: % Total Population: 55 to 64 Years
+      PCT_A01001_011: % Total Population: 65 to 74 Years
+      PCT_A01001_012: % Total Population: 75 to 84 Years
+      PCT_A01001_013: % Total Population: 85 Years and Over
+      A01001A_001:    Total Population:
+      A01001A_002:    Total Population: Less than 5 Years
+      A01001A_003:    Total Population: Less than 10 Years
+      A01001A_004:    Total Population: Less than 15 Years
+      A01001A_005:    Total Population: Less than 18 Years
+      A01001A_006:    Total Population: Less than 25 Years
+      A01001A_007:    Total Population: Less than 35 Years
+      A01001A_008:    Total Population: Less than 45 Years
+      A01001A_009:    Total Population: Less than 55 Years
+      A01001A_010:    Total Population: Less than 65 Years
+      A01001A_011:    Total Population: Less than 75 Years
+      A01001A_012:    Total Population: Less than 85 Years
+      PCT_A01001A_002: % Total Population: Less than 5 Years
+      PCT_A01001A_003: % Total Population: Less than 10 Years
+      PCT_A01001A_004: % Total Population: Less than 15 Years
+      PCT_A01001A_005: % Total Population: Less than 18 Years
+      PCT_A01001A_006: % Total Population: Less than 25 Years
+      PCT_A01001A_007: % Total Population: Less than 35 Years
+      PCT_A01001A_008: % Total Population: Less than 45 Years
+      PCT_A01001A_009: % Total Population: Less than 55 Years
+      PCT_A01001A_010: % Total Population: Less than 65 Years
+      PCT_A01001A_011: % Total Population: Less than 75 Years
+      PCT_A01001A_012: % Total Population: Less than 85 Years
+      A01001B_001:    Total Population:
+      A01001B_002:    Total Population: More than 5 Years
+      A01001B_003:    Total Population: More than 10 Years
+      A01001B_004:    Total Population: More than 15 Years
+      A01001B_005:    Total Population: More than 18 Years
+      A01001B_006:    Total Population: More than 25 Years
+      A01001B_007:    Total Population: More than 35 Years
+      A01001B_008:    Total Population: More than 45 Years
+      A01001B_009:    Total Population: More than 55 Years
+      A01001B_010:    Total Population: More than 65 Years
+      A01001B_011:    Total Population: More than 75 Years
+      A01001B_012:    Total Population: More than 85 Years
+      PCT_A01001B_002: % Total Population: More than 5 Years
+      PCT_A01001B_003: % Total Population: More than 10 Years
+      PCT_A01001B_004: % Total Population: More than 15 Years
+      PCT_A01001B_005: % Total Population: More than 18 Years
+      PCT_A01001B_006: % Total Population: More than 25 Years
+      PCT_A01001B_007: % Total Population: More than 35 Years
+      PCT_A01001B_008: % Total Population: More than 45 Years
+      PCT_A01001B_009: % Total Population: More than 55 Years
+      PCT_A01001B_010: % Total Population: More than 65 Years
+      PCT_A01001B_011: % Total Population: More than 75 Years
+      PCT_A01001B_012: % Total Population: More than 85 Years
+      C01001_001:     Total:
+      C01001_002:     Total: Under 5 Years
+      C01001_003:     Total: 5 to 9 Years
+      C01001_004:     Total: 10 to 14 Years
+      C01001_005:     Total: 15 to 17 Years
+      C01001_006:     Total: 18 and 19 Years
+      C01001_007:     Total: 20 Years
+      C01001_008:     Total: 21 Years
+      C01001_009:     Total: 22 to 24 Years
+      C01001_010:     Total: 25 to 29 Years
+      C01001_011:     Total: 30 to 34 Years
+      C01001_012:     Total: 35 to 39 Years
+      C01001_013:     Total: 40 to 44 Years
+      C01001_014:     Total: 45 to 49 Years
+      C01001_015:     Total: 50 to 54 Years
+      C01001_016:     Total: 55 to 59 Years
+      C01001_017:     Total: 60 and 61 Years
+      C01001_018:     Total: 62 to 64 Years
+      C01001_019:     Total: 65 and 66 Years
+      C01001_020:     Total: 67 to 69 Years
+      C01001_021:     Total: 70 to 74 Years
+      C01001_022:     Total: 75 to 79 Years
+      C01001_023:     Total: 80 to 84 Years
+      C01001_024:     Total: 85 Years and Over
+      PCT_C01001_002: % Total: Under 5 Years
+      PCT_C01001_003: % Total: 5 to 9 Years
+      PCT_C01001_004: % Total: 10 to 14 Years
+      PCT_C01001_005: % Total: 15 to 17 Years
+      PCT_C01001_006: % Total: 18 and 19 Years
+      PCT_C01001_007: % Total: 20 Years
+      PCT_C01001_008: % Total: 21 Years
+      PCT_C01001_009: % Total: 22 to 24 Years
+      PCT_C01001_010: % Total: 25 to 29 Years
+      PCT_C01001_011: % Total: 30 to 34 Years
+      PCT_C01001_012: % Total: 35 to 39 Years
+      PCT_C01001_013: % Total: 40 to 44 Years
+      PCT_C01001_014: % Total: 45 to 49 Years
+      PCT_C01001_015: % Total: 50 to 54 Years
+      PCT_C01001_016: % Total: 55 to 59 Years
+      PCT_C01001_017: % Total: 60 and 61 Years
+      PCT_C01001_018: % Total: 62 to 64 Years
+      PCT_C01001_019: % Total: 65 and 66 Years
+      PCT_C01001_020: % Total: 67 to 69 Years
+      PCT_C01001_021: % Total: 70 to 74 Years
+      PCT_C01001_022: % Total: 75 to 79 Years
+      PCT_C01001_023: % Total: 80 to 84 Years
+      PCT_C01001_024: % Total: 85 Years and Over
+      C01001A_001:    Total:
+      C01001A_002:    Total: Less than 5 Years
+      C01001A_003:    Total: Less than 10 Years
+      C01001A_004:    Total: Less than 15 Years
+      C01001A_005:    Total: Less than 18 Years
+      C01001A_006:    Total: Less than 20 Years
+      C01001A_007:    Total: Less than 21 Years
+      C01001A_008:    Total: Less than 22 Years
+      C01001A_009:    Total: Less than 25 Years
+      C01001A_010:    Total: Less than 30 Years
+      C01001A_011:    Total: Less than 35 Years
+      C01001A_012:    Total: Less than 40 Years
+      C01001A_013:    Total: Less than 45 Years
+      C01001A_014:    Total: Less than 50 Years
+      C01001A_015:    Total: Less than 55 Years
+      C01001A_016:    Total: Less than 60 Years
+      C01001A_017:    Total: Less than 62 Years
+      C01001A_018:    Total: Less than 65 Years
+      C01001A_019:    Total: Less than 67 Years
+      C01001A_020:    Total: Less than 70 Years
+      C01001A_021:    Total: Less than 75 Years
+      C01001A_022:    Total: Less than 80 Years
+      C01001A_023:    Total: Less than 85 Years
+      PCT_C01001A_002: % Total: Less than 5 Years
+      PCT_C01001A_003: % Total: Less than 10 Years
+      PCT_C01001A_004: % Total: Less than 15 Years
+      PCT_C01001A_005: % Total: Less than 18 Years
+      PCT_C01001A_006: % Total: Less than 20 Years
+      PCT_C01001A_007: % Total: Less than 21 Years
+      PCT_C01001A_008: % Total: Less than 22 Years
+      PCT_C01001A_009: % Total: Less than 25 Years
+      PCT_C01001A_010: % Total: Less than 30 Years
+      PCT_C01001A_011: % Total: Less than 35 Years
+      PCT_C01001A_012: % Total: Less than 40 Years
+      PCT_C01001A_013: % Total: Less than 45 Years
+      PCT_C01001A_014: % Total: Less than 50 Years
+      PCT_C01001A_015: % Total: Less than 55 Years
+      PCT_C01001A_016: % Total: Less than 60 Years
+      PCT_C01001A_017: % Total: Less than 62 Years
+      PCT_C01001A_018: % Total: Less than 65 Years
+      PCT_C01001A_019: % Total: Less than 67 Years
+      PCT_C01001A_020: % Total: Less than 70 Years
+      PCT_C01001A_021: % Total: Less than 75 Years
+      PCT_C01001A_022: % Total: Less than 80 Years
+      PCT_C01001A_023: % Total: Less than 85 Years
+      C01001B_001:    Total:
+      C01001B_002:    Total: More than 5 Years
+      C01001B_003:    Total: More than 10 Years
+      C01001B_004:    Total: More than 15 Years
+      C01001B_005:    Total: More than 18 Years
+      C01001B_006:    Total: More than 20 Years
+      C01001B_007:    Total: More than 21 Years
+      C01001B_008:    Total: More than 22 Years
+      C01001B_009:    Total: More than 25 Years
+      C01001B_010:    Total: More than 30 Years
+      C01001B_011:    Total: More than 35 Years
+      C01001B_012:    Total: More than 40 Years
+      C01001B_013:    Total: More than 45 Years
+      C01001B_014:    Total: More than 50 Years
+      C01001B_015:    Total: More than 55 Years
+      C01001B_016:    Total: More than 60 Years
+      C01001B_017:    Total: More than 62 Years
+      C01001B_018:    Total: More than 65 Years
+      C01001B_019:    Total: More than 67 Years
+      C01001B_020:    Total: More than 70 Years
+      C01001B_021:    Total: More than 75 Years
+      C01001B_022:    Total: More than 80 Years
+      C01001B_023:    Total: More than 85 Years
+      PCT_C01001B_002: % Total: More than 5 Years
+      PCT_C01001B_003: % Total: More than 10 Years
+      PCT_C01001B_004: % Total: More than 15 Years
+      PCT_C01001B_005: % Total: More than 18 Years
+      PCT_C01001B_006: % Total: More than 20 Years
+      PCT_C01001B_007: % Total: More than 21 Years
+      PCT_C01001B_008: % Total: More than 22 Years
+      PCT_C01001B_009: % Total: More than 25 Years
+      PCT_C01001B_010: % Total: More than 30 Years
+      PCT_C01001B_011: % Total: More than 35 Years
+      PCT_C01001B_012: % Total: More than 40 Years
+      PCT_C01001B_013: % Total: More than 45 Years
+      PCT_C01001B_014: % Total: More than 50 Years
+      PCT_C01001B_015: % Total: More than 55 Years
+      PCT_C01001B_016: % Total: More than 60 Years
+      PCT_C01001B_017: % Total: More than 62 Years
+      PCT_C01001B_018: % Total: More than 65 Years
+      PCT_C01001B_019: % Total: More than 67 Years
+      PCT_C01001B_020: % Total: More than 70 Years
+      PCT_C01001B_021: % Total: More than 75 Years
+      PCT_C01001B_022: % Total: More than 80 Years
+      PCT_C01001B_023: % Total: More than 85 Years
+      B01001_001:     Total Population:
+      B01001_002:     Total Population: Under 18 Years
+      B01001_003:     Total Population: 18 to 34 Years
+      B01001_004:     Total Population: 35 to 64 Years
+      B01001_005:     Total Population: 65 and Over
+      PCT_B01001_002: % Total Population: Under 18 Years
+      PCT_B01001_003: % Total Population: 18 to 34 Years
+      PCT_B01001_004: % Total Population: 35 to 64 Years
+      PCT_B01001_005: % Total Population: 65 and Over
+      A01002B_001:    Male Population:
+      A01002B_002:    Male Population: Under 18 Years
+      A01002B_003:    Male Population: 18 to 34 Years
+      A01002B_004:    Male Population: 35 to 64 Years
+      A01002B_005:    Male Population: 65 and Over
+      PCT_A01002B_002: % Male Population: Under 18 Years
+      PCT_A01002B_003: % Male Population: 18 to 34 Years
+      PCT_A01002B_004: % Male Population: 35 to 64 Years
+      PCT_A01002B_005: % Male Population: 65 and Over
+      A01002A_001:    Female Population:
+      A01002A_002:    Female Population: Under 18 Years
+      A01002A_003:    Female Population: 18 to 34 Years
+      A01002A_004:    Female Population: 35 to 64 Years
+      A01002A_005:    Female Population: 65 and Over
+      PCT_A01002A_002: % Female Population: Under 18 Years
+      PCT_A01002A_003: % Female Population: 18 to 34 Years
+      PCT_A01002A_004: % Female Population: 35 to 64 Years
+      PCT_A01002A_005: % Female Population: 65 and Over
+      A01004_001:     Median Age:
+      A01004_002:     Median Age: Male Population
+      A01004_003:     Median Age: Female Population
+      A03001_001:     Total Population:
+      A03001_002:     Total Population: White Alone
+      A03001_003:     Total Population: Black or African American Alone
+      A03001_004:     Total Population: American Indian and Alaska Native Alone
+      A03001_005:     Total Population: Asian Alone
+      A03001_006:     Total Population: Native Hawaiian and Other Pacific Islander Alone
+      A03001_007:     Total Population: Some Other Race Alone
+      A03001_008:     Total Population: Two or More Races
+      PCT_A03001_002: % Total Population: White Alone
+      PCT_A03001_003: % Total Population: Black or African American Alone
+      PCT_A03001_004: % Total Population: American Indian and Alaska Native Alone
+      PCT_A03001_005: % Total Population: Asian Alone
+      PCT_A03001_006: % Total Population: Native Hawaiian and Other Pacific Islander Alone
+      PCT_A03001_007: % Total Population: Some Other Race Alone
+      PCT_A03001_008: % Total Population: Two or More Races
+      A04001_001:     Total Population
+      A04001_002:     Total Population: Not Hispanic or Latino
+      A04001_003:     Total Population: Not Hispanic or Latino: White Alone
+      A04001_004:     Total Population: Not Hispanic or Latino: Black or African American Alone
+      A04001_005:     Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_006:     Total Population: Not Hispanic or Latino: Asian Alone
+      A04001_007:     Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_008:     Total Population: Not Hispanic or Latino: Some Other Race Alone
+      A04001_009:     Total Population: Not Hispanic or Latino: Two or More Races
+      A04001_010:     Total Population: Hispanic or Latino
+      A04001_011:     Total Population: Hispanic or Latino: White Alone
+      A04001_012:     Total Population: Hispanic or Latino: Black or African American Alone
+      A04001_013:     Total Population: Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_014:     Total Population: Hispanic or Latino: Asian Alone
+      A04001_015:     Total Population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_016:     Total Population: Hispanic or Latino: Some Other Race Alone
+      A04001_017:     Total Population: Hispanic or Latino: Two or More Races
+      PCT_A04001_002: % Total Population: Not Hispanic or Latino
+      PCT_A04001_003: % Total Population: Not Hispanic or Latino: White Alone
+      PCT_A04001_004: % Total Population: Not Hispanic or Latino: Black or African American Alone
+      PCT_A04001_005: % Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      PCT_A04001_006: % Total Population: Not Hispanic or Latino: Asian Alone
+      PCT_A04001_007: % Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      PCT_A04001_008: % Total Population: Not Hispanic or Latino: Some Other Race Alone
+      PCT_A04001_009: % Total Population: Not Hispanic or Latino: Two or More Races
+      PCT_A04001_010: % Total Population: Hispanic or Latino
+      PCT_A04001_011: % Total Population: Hispanic or Latino: White Alone
+      PCT_A04001_012: % Total Population: Hispanic or Latino: Black or African American Alone
+      PCT_A04001_013: % Total Population: Hispanic or Latino: American Indian and Alaska Native Alone
+      PCT_A04001_014: % Total Population: Hispanic or Latino: Asian Alone
+      PCT_A04001_015: % Total Population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      PCT_A04001_016: % Total Population: Hispanic or Latino: Some Other Race Alone
+      PCT_A04001_017: % Total Population: Hispanic or Latino: Two or More Races
+      B04001_001:     Total Population
+      B04001_002:     Total Population: Not Hispanic or Latino
+      B04001_003:     Total Population: Not Hispanic or Latino: White Alone
+      B04001_004:     Total Population: Not Hispanic or Latino: Black or African American Alone
+      B04001_005:     Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      B04001_006:     Total Population: Not Hispanic or Latino: Asian Alone
+      B04001_007:     Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      B04001_008:     Total Population: Not Hispanic or Latino: Some Other Race Alone
+      B04001_009:     Total Population: Not Hispanic or Latino: Two or More Races
+      B04001_010:     Total Population: Hispanic or Latino
+      PCT_B04001_002: % Total Population: Not Hispanic or Latino
+      PCT_B04001_003: % Total Population: Not Hispanic or Latino: White Alone
+      PCT_B04001_004: % Total Population: Not Hispanic or Latino: Black or African American Alone
+      PCT_B04001_005: % Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      PCT_B04001_006: % Total Population: Not Hispanic or Latino: Asian Alone
+      PCT_B04001_007: % Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      PCT_B04001_008: % Total Population: Not Hispanic or Latino: Some Other Race Alone
+      PCT_B04001_009: % Total Population: Not Hispanic or Latino: Two or More Races
+      PCT_B04001_010: % Total Population: Hispanic or Latino
+      A04002_001:     Total Population
+      A04002_002:     Total Population: Not Hispanic or Latino
+      A04002_003:     Total Population: Hispanic or Latino
+      A04002_004:     Total Population: Hispanic or Latino: Mexican
+      A04002_005:     Total Population: Hispanic or Latino: Puerto Rican
+      A04002_006:     Total Population: Hispanic or Latino: Cuban
+      A04002_007:     Total Population: Hispanic or Latino: Dominican Republic
+      A04002_008:     Total Population: Hispanic or Latino: Central American
+      A04002_009:     Total Population: Hispanic or Latino: Central American: Costa Rican
+      A04002_010:     Total Population: Hispanic or Latino: Central American: Guatemalan
+      A04002_011:     Total Population: Hispanic or Latino: Central American: Honduran
+      A04002_012:     Total Population: Hispanic or Latino: Central American: Nicaraguan
+      A04002_013:     Total Population: Hispanic or Latino: Central American: Panamanian
+      A04002_014:     Total Population: Hispanic or Latino: Central American: Salvadoran
+      A04002_015:     Total Population: Hispanic or Latino: Central American: Other Central American
+      A04002_016:     Total Population: Hispanic or Latino: South American
+      A04002_017:     Total Population: Hispanic or Latino: South American: Argentinean
+      A04002_018:     Total Population: Hispanic or Latino: South American: Bolivian
+      A04002_019:     Total Population: Hispanic or Latino: South American: Chilean
+      A04002_020:     Total Population: Hispanic or Latino: South American: Colombian
+      A04002_021:     Total Population: Hispanic or Latino: South American: Ecuadorian
+      A04002_022:     Total Population: Hispanic or Latino: South American: Paraguayan
+      A04002_023:     Total Population: Hispanic or Latino: South American: Peruvian
+      A04002_024:     Total Population: Hispanic or Latino: South American: Uruguayan
+      A04002_025:     Total Population: Hispanic or Latino: South American: Venezuelan
+      A04002_026:     Total Population: Hispanic or Latino: South American: Other South American
+      A04002_027:     Total Population: Hispanic or Latino: Other Hispanic or Latino
+      A04002_028:     Total Population: Hispanic or Latino: Other Hispanic or Latino: Spaniard
+      A04002_029:     Total Population: Hispanic or Latino: Other Hispanic or Latino: Spanish
+      A04002_030:     Total Population: Hispanic or Latino: Other Hispanic or Latino: Spanish American
+      A04002_031:     Total Population: Hispanic or Latino: Other Hispanic or Latino: All Other Hispanic or Latino
+      PCT_A04002_002: % Total Population: Not Hispanic or Latino
+      PCT_A04002_003: % Total Population: Hispanic or Latino
+      PCT_A04002_004: % Total Population: Hispanic or Latino: Mexican
+      PCT_A04002_005: % Total Population: Hispanic or Latino: Puerto Rican
+      PCT_A04002_006: % Total Population: Hispanic or Latino: Cuban
+      PCT_A04002_007: % Total Population: Hispanic or Latino: Dominican Republic
+      PCT_A04002_008: % Total Population: Hispanic or Latino: Central American
+      PCT_A04002_009: % Total Population: Hispanic or Latino: Central American: Costa Rican
+      PCT_A04002_010: % Total Population: Hispanic or Latino: Central American: Guatemalan
+      PCT_A04002_011: % Total Population: Hispanic or Latino: Central American: Honduran
+      PCT_A04002_012: % Total Population: Hispanic or Latino: Central American: Nicaraguan
+      PCT_A04002_013: % Total Population: Hispanic or Latino: Central American: Panamanian
+      PCT_A04002_014: % Total Population: Hispanic or Latino: Central American: Salvadoran
+      PCT_A04002_015: % Total Population: Hispanic or Latino: Central American: Other Central American
+      PCT_A04002_016: % Total Population: Hispanic or Latino: South American
+      PCT_A04002_017: % Total Population: Hispanic or Latino: South American: Argentinean
+      PCT_A04002_018: % Total Population: Hispanic or Latino: South American: Bolivian
+      PCT_A04002_019: % Total Population: Hispanic or Latino: South American: Chilean
+      PCT_A04002_020: % Total Population: Hispanic or Latino: South American: Colombian
+      PCT_A04002_021: % Total Population: Hispanic or Latino: South American: Ecuadorian
+      PCT_A04002_022: % Total Population: Hispanic or Latino: South American: Paraguayan
+      PCT_A04002_023: % Total Population: Hispanic or Latino: South American: Peruvian
+      PCT_A04002_024: % Total Population: Hispanic or Latino: South American: Uruguayan
+      PCT_A04002_025: % Total Population: Hispanic or Latino: South American: Venezuelan
+      PCT_A04002_026: % Total Population: Hispanic or Latino: South American: Other South American
+      PCT_A04002_027: % Total Population: Hispanic or Latino: Other Hispanic or Latino
+      PCT_A04002_028: % Total Population: Hispanic or Latino: Other Hispanic or Latino: Spaniard
+      PCT_A04002_029: % Total Population: Hispanic or Latino: Other Hispanic or Latino: Spanish
+      PCT_A04002_030: % Total Population: Hispanic or Latino: Other Hispanic or Latino: Spanish American
+      PCT_A04002_031: % Total Population: Hispanic or Latino: Other Hispanic or Latino: All Other Hispanic or Latino
+      A03002_001:     Total:
+      A03002_002:     Total: Asian Indian
+      A03002_003:     Total: Bangladeshi
+      A03002_020:     Total: Bhutanese
+      A03002_021:     Total: Burmese
+      A03002_004:     Total: Cambodian
+      A03002_005:     Total: Chinese, Except Taiwanese
+      A03002_006:     Total: Filipino
+      A03002_007:     Total: Hmong
+      A03002_008:     Total: Indonesian
+      A03002_009:     Total: Japanese
+      A03002_010:     Total: Korean
+      A03002_011:     Total: Laotian
+      A03002_012:     Total: Malaysian
+      A03002_022:     Total: Mongolian
+      A03002_023:     Total: Nepalese
+      A03002_024:     Total: Okinawan
+      A03002_013:     Total: Pakistani
+      A03002_014:     Total: Sri Lankan
+      A03002_015:     Total: Taiwanese
+      A03002_016:     Total: Thai
+      A03002_017:     Total: Vietnamese
+      A03002_018:     Total: Other Asian, Specified
+      A03002_019:     Total: Other Asian, Not Specified
+      A03002_025:     Total: Two or More Asian
+      PCT_A03002_002: % Total: Asian Indian
+      PCT_A03002_003: % Total: Bangladeshi
+      PCT_A03002_020: % Total: Bhutanese
+      PCT_A03002_021: % Total: Burmese
+      PCT_A03002_004: % Total: Cambodian
+      PCT_A03002_005: % Total: Chinese, Except Taiwanese
+      PCT_A03002_006: % Total: Filipino
+      PCT_A03002_007: % Total: Hmong
+      PCT_A03002_008: % Total: Indonesian
+      PCT_A03002_009: % Total: Japanese
+      PCT_A03002_010: % Total: Korean
+      PCT_A03002_011: % Total: Laotian
+      PCT_A03002_012: % Total: Malaysian
+      PCT_A03002_022: % Total: Mongolian
+      PCT_A03002_023: % Total: Nepalese
+      PCT_A03002_024: % Total: Okinawan
+      PCT_A03002_013: % Total: Pakistani
+      PCT_A03002_014: % Total: Sri Lankan
+      PCT_A03002_015: % Total: Taiwanese
+      PCT_A03002_016: % Total: Thai
+      PCT_A03002_017: % Total: Vietnamese
+      PCT_A03002_018: % Total: Other Asian, Specified
+      PCT_A03002_019: % Total: Other Asian, Not Specified
+      PCT_A03002_025: % Total: Two or More Asian
+      A10008_001:     Households:
+      A10008_002:     Households: Family Households
+      A10008_003:     Households: Family Households: Married-Couple Family
+      A10008_004:     Households: Family Households: Other Family
+      A10008_005:     Households: Family Households: Other Family: Male Householder, No Wife Present
+      A10008_006:     Households: Family Households: Other Family: Female Householder, No Husband Present
+      A10008_007:     Households: Nonfamily Households
+      A10008_008:     Households: Nonfamily Households: Male Householder
+      A10008_009:     Households: Nonfamily Households: Female Householder
+      PCT_A10008_002: % Households: Family Households
+      PCT_A10008_003: % Households: Family Households: Married-Couple Family
+      PCT_A10008_004: % Households: Family Households: Other Family
+      PCT_A10008_005: % Households: Family Households: Other Family: Male Householder, No Wife Present
+      PCT_A10008_006: % Households: Family Households: Other Family: Female Householder, No Husband Present
+      PCT_A10008_007: % Households: Nonfamily Households
+      PCT_A10008_008: % Households: Nonfamily Households: Male Householder
+      PCT_A10008_009: % Households: Nonfamily Households: Female Householder
+      A10025_001:     Occupied Housing Units
+      A10025_002:     Occupied Housing Units: Family Households
+      A10025_003:     Occupied Housing Units: Family Households: Married-Couple Family
+      A10025_004:     Occupied Housing Units: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      A10025_005:     Occupied Housing Units: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      A10025_006:     Occupied Housing Units: Family Households: Married-Couple Family: Householder 65 Years and Over
+      A10025_007:     Occupied Housing Units: Family Households: Other Family
+      A10025_008:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present
+      A10025_009:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      A10025_010:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      A10025_011:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      A10025_012:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present
+      A10025_013:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      A10025_014:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      A10025_015:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      A10025_016:     Occupied Housing Units: Nonfamily Households
+      A10025_017:     Occupied Housing Units: Nonfamily Households: Householder Living Alone
+      A10025_018:     Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      A10025_019:     Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      A10025_020:     Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      A10025_021:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone
+      A10025_022:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      A10025_023:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      A10025_024:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      PCT_A10025_002: % Occupied Housing Units: Family Households
+      PCT_A10025_003: % Occupied Housing Units: Family Households: Married-Couple Family
+      PCT_A10025_004: % Occupied Housing Units: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      PCT_A10025_005: % Occupied Housing Units: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      PCT_A10025_006: % Occupied Housing Units: Family Households: Married-Couple Family: Householder 65 Years and Over
+      PCT_A10025_007: % Occupied Housing Units: Family Households: Other Family
+      PCT_A10025_008: % Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present
+      PCT_A10025_009: % Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      PCT_A10025_010: % Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      PCT_A10025_011: % Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      PCT_A10025_012: % Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present
+      PCT_A10025_013: % Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      PCT_A10025_014: % Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      PCT_A10025_015: % Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      PCT_A10025_016: % Occupied Housing Units: Nonfamily Households
+      PCT_A10025_017: % Occupied Housing Units: Nonfamily Households: Householder Living Alone
+      PCT_A10025_018: % Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      PCT_A10025_019: % Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      PCT_A10025_020: % Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      PCT_A10025_021: % Occupied Housing Units: Nonfamily Households: Householder Not Living Alone
+      PCT_A10025_022: % Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      PCT_A10025_023: % Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      PCT_A10025_024: % Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      A10004B_001:    Renter-Occupied Housing Units
+      A10004B_002:    Renter-Occupied Housing Units: Family Households
+      A10004B_003:    Renter-Occupied Housing Units: Family Households: Married-Couple Family
+      A10004B_004:    Renter-Occupied Housing Units: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      A10004B_005:    Renter-Occupied Housing Units: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      A10004B_006:    Renter-Occupied Housing Units: Family Households: Married-Couple Family: Householder 65 Years and Over
+      A10004B_007:    Renter-Occupied Housing Units: Family Households: Other Family
+      A10004B_008:    Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present
+      A10004B_009:    Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      A10004B_010:    Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      A10004B_011:    Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      A10004B_012:    Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present
+      A10004B_013:    Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      A10004B_014:    Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      A10004B_015:    Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      A10004B_016:    Renter-Occupied Housing Units: Nonfamily Households
+      A10004B_017:    Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone
+      A10004B_018:    Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      A10004B_019:    Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      A10004B_020:    Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      A10004B_021:    Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone
+      A10004B_022:    Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      A10004B_023:    Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      A10004B_024:    Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      PCT_A10004B_002: % Renter-Occupied Housing Units: Family Households
+      PCT_A10004B_003: % Renter-Occupied Housing Units: Family Households: Married-Couple Family
+      PCT_A10004B_004: % Renter-Occupied Housing Units: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      PCT_A10004B_005: % Renter-Occupied Housing Units: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      PCT_A10004B_006: % Renter-Occupied Housing Units: Family Households: Married-Couple Family: Householder 65 Years and Over
+      PCT_A10004B_007: % Renter-Occupied Housing Units: Family Households: Other Family
+      PCT_A10004B_008: % Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present
+      PCT_A10004B_009: % Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      PCT_A10004B_010: % Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      PCT_A10004B_011: % Renter-Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      PCT_A10004B_012: % Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present
+      PCT_A10004B_013: % Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      PCT_A10004B_014: % Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      PCT_A10004B_015: % Renter-Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      PCT_A10004B_016: % Renter-Occupied Housing Units: Nonfamily Households
+      PCT_A10004B_017: % Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone
+      PCT_A10004B_018: % Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      PCT_A10004B_019: % Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      PCT_A10004B_020: % Renter-Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      PCT_A10004B_021: % Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone
+      PCT_A10004B_022: % Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      PCT_A10004B_023: % Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      PCT_A10004B_024: % Renter-Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      A10024_001:     Occupied Housing Units
+      A10024_002:     Occupied Housing Units: 1-Person Household
+      A10024_003:     Occupied Housing Units: 2-Person Household
+      A10024_004:     Occupied Housing Units: 3-Person Household
+      A10024_005:     Occupied Housing Units: 4-Person Household
+      A10024_006:     Occupied Housing Units: 5-Person Household
+      A10024_007:     Occupied Housing Units: 6-Person Household
+      A10024_008:     Occupied Housing Units: 7-or-More Person Household
+      PCT_A10024_002: % Occupied Housing Units: 1-Person Household
+      PCT_A10024_003: % Occupied Housing Units: 2-Person Household
+      PCT_A10024_004: % Occupied Housing Units: 3-Person Household
+      PCT_A10024_005: % Occupied Housing Units: 4-Person Household
+      PCT_A10024_006: % Occupied Housing Units: 5-Person Household
+      PCT_A10024_007: % Occupied Housing Units: 6-Person Household
+      PCT_A10024_008: % Occupied Housing Units: 7-or-More Person Household
+      A10002B_001:    Renter-Occupied Housing Units
+      A10002B_002:    Renter-Occupied Housing Units: 1-Person Household
+      A10002B_003:    Renter-Occupied Housing Units: 2-Person Household
+      A10002B_004:    Renter-Occupied Housing Units: 3-Person Household
+      A10002B_005:    Renter-Occupied Housing Units: 4-Person Household
+      A10002B_006:    Renter-Occupied Housing Units: 5-Person Household
+      A10002B_007:    Renter-Occupied Housing Units: 6-Person Household
+      A10002B_008:    Renter-Occupied Housing Units: 7-or-More Person Household
+      PCT_A10002B_002: % Renter-Occupied Housing Units: 1-Person Household
+      PCT_A10002B_003: % Renter-Occupied Housing Units: 2-Person Household
+      PCT_A10002B_004: % Renter-Occupied Housing Units: 3-Person Household
+      PCT_A10002B_005: % Renter-Occupied Housing Units: 4-Person Household
+      PCT_A10002B_006: % Renter-Occupied Housing Units: 5-Person Household
+      PCT_A10002B_007: % Renter-Occupied Housing Units: 6-Person Household
+      PCT_A10002B_008: % Renter-Occupied Housing Units: 7-or-More Person Household
+      A10022_001:     Occupied Housing Units
+      A10022_002:     Occupied Housing Units: with Related Children of the Householder Under 18
+      A10022_003:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18
+      A10022_004:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: Under 6 Years Only
+      A10022_005:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: Under 6 Years and 6 to 17 Years
+      A10022_006:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: 6 to 17 Years
+      A10022_007:     Occupied Housing Units: with Related Children of the Householder Under 18: No Own Children of the Householder Under 18
+      A10022_008:     Occupied Housing Units: No Related Children of the Householder Under 18
+      PCT_A10022_002: % Occupied Housing Units: with Related Children of the Householder Under 18
+      PCT_A10022_003: % Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18
+      PCT_A10022_004: % Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: Under 6 Years Only
+      PCT_A10022_005: % Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: Under 6 Years and 6 to 17 Years
+      PCT_A10022_006: % Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: 6 to 17 Years
+      PCT_A10022_007: % Occupied Housing Units: with Related Children of the Householder Under 18: No Own Children of the Householder Under 18
+      PCT_A10022_008: % Occupied Housing Units: No Related Children of the Householder Under 18
+      A10005B_001:    Renter-Occupied Housing Units
+      A10005B_002:    Renter-Occupied Housing Units: with Related Children of the Householder Under 18
+      A10005B_003:    Renter-Occupied Housing Units: with Own Children of the Householder Under 18
+      A10005B_004:    Renter-Occupied Housing Units: Under 6 Years Only
+      A10005B_005:    Renter-Occupied Housing Units: Under 6 Years and 6 to 17 Years
+      A10005B_006:    Renter-Occupied Housing Units: 6 to 17 Years
+      A10005B_007:    Renter-Occupied Housing Units: No Own Children of the Householder Under 18
+      A10005B_008:    Renter-Occupied Housing Units: No Related Children of the Householder Under 18
+      PCT_A10005B_002: % Renter-Occupied Housing Units: with Related Children of the Householder Under 18
+      PCT_A10005B_003: % Renter-Occupied Housing Units: with Own Children of the Householder Under 18
+      PCT_A10005B_004: % Renter-Occupied Housing Units: Under 6 Years Only
+      PCT_A10005B_005: % Renter-Occupied Housing Units: Under 6 Years and 6 to 17 Years
+      PCT_A10005B_006: % Renter-Occupied Housing Units: 6 to 17 Years
+      PCT_A10005B_007: % Renter-Occupied Housing Units: No Own Children of the Householder Under 18
+      PCT_A10005B_008: % Renter-Occupied Housing Units: No Related Children of the Householder Under 18
+      A10009_001:     Households:
+      A10009_002:     Households: Households with One or More People Under 18 Years
+      A10009_003:     Households: Households with One or More People Under 18 Years: Family Households
+      A10009_004:     Households: Households with One or More People Under 18 Years: Family Households: Married-Couple Family
+      A10009_005:     Households: Households with One or More People Under 18 Years: Family Households: Other Family (Single Parent)
+      A10009_006:     Households: Households with One or More People Under 18 Years: Family Households: Other Family (Single Parent): Male Householder, No Wife Present
+      A10009_007:     Households: Households with One or More People Under 18 Years: Family Households: Other Family (Single Parent): Female Householder, No Husband Present
+      A10009_008:     Households: Households with One or More People Under 18 Years: Nonfamily Households
+      A10009_009:     Households: Households with One or More People Under 18 Years: Nonfamily Households: Male Householder
+      A10009_010:     Households: Households with One or More People Under 18 Years: Nonfamily Households: Female Householder
+      A10009_011:     Households: Households with No People Under 18 Years
+      A10009_012:     Households: Households with No People Under 18 Years: Family Households
+      A10009_013:     Households: Households with No People Under 18 Years: Family Households: Married-Couple Family
+      A10009_014:     Households: Households with No People Under 18 Years: Family Households: Other Family
+      A10009_015:     Households: Households with No People Under 18 Years: Family Households: Other Family: Male Householder, No Wife Present
+      A10009_016:     Households: Households with No People Under 18 Years: Family Households: Other Family: Female Householder, No Husband Present
+      A10009_017:     Households: Households with No People Under 18 Years: Nonfamily Households
+      A10009_018:     Households: Households with No People Under 18 Years: Nonfamily Households: Male Householder
+      A10009_019:     Households: Households with No People Under 18 Years: Nonfamily Households: Female Householder
+      PCT_A10009_002: % Households: Households with One or More People Under 18 Years
+      PCT_A10009_003: % Households: Households with One or More People Under 18 Years: Family Households
+      PCT_A10009_004: % Households: Households with One or More People Under 18 Years: Family Households: Married-Couple Family
+      PCT_A10009_005: % Households: Households with One or More People Under 18 Years: Family Households: Other Family (Single Parent)
+      PCT_A10009_006: % Households: Households with One or More People Under 18 Years: Family Households: Other Family (Single Parent): Male Householder, No Wife Present
+      PCT_A10009_007: % Households: Households with One or More People Under 18 Years: Family Households: Other Family (Single Parent): Female Householder, No Husband Present
+      PCT_A10009_008: % Households: Households with One or More People Under 18 Years: Nonfamily Households
+      PCT_A10009_009: % Households: Households with One or More People Under 18 Years: Nonfamily Households: Male Householder
+      PCT_A10009_010: % Households: Households with One or More People Under 18 Years: Nonfamily Households: Female Householder
+      PCT_A10009_011: % Households: Households with No People Under 18 Years
+      PCT_A10009_012: % Households: Households with No People Under 18 Years: Family Households
+      PCT_A10009_013: % Households: Households with No People Under 18 Years: Family Households: Married-Couple Family
+      PCT_A10009_014: % Households: Households with No People Under 18 Years: Family Households: Other Family
+      PCT_A10009_015: % Households: Households with No People Under 18 Years: Family Households: Other Family: Male Householder, No Wife Present
+      PCT_A10009_016: % Households: Households with No People Under 18 Years: Family Households: Other Family: Female Householder, No Husband Present
+      PCT_A10009_017: % Households: Households with No People Under 18 Years: Nonfamily Households
+      PCT_A10009_018: % Households: Households with No People Under 18 Years: Nonfamily Households: Male Householder
+      PCT_A10009_019: % Households: Households with No People Under 18 Years: Nonfamily Households: Female Householder
+      A10010_001:     Households:
+      A10010_002:     Households: with a Householder Who Is White Alone
+      A10010_003:     Households: with a Householder Who Is Black or African  American Alone
+      A10010_004:     Households: with a Householder Who Is American Indian and  Alaska Native Alone
+      A10010_005:     Households: with a Householder Who Is Asian Alone
+      A10010_006:     Households: with a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+      A10010_007:     Households: with a Householder Who Is Some Other Race Alone
+      A10010_008:     Households: with a Householder Who Is Two or More Races
+      A10010_009:     Households: with a Householder Who Is Hispanic or Latino
+      A10010_010:     Households: with a Householder Who Is White Alone, Not  Hispanic or Latino
+      PCT_A10010_002: % Households: with a Householder Who Is White Alone
+      PCT_A10010_003: % Households: with a Householder Who Is Black or African  American Alone
+      PCT_A10010_004: % Households: with a Householder Who Is American Indian and  Alaska Native Alone
+      PCT_A10010_005: % Households: with a Householder Who Is Asian Alone
+      PCT_A10010_006: % Households: with a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+      PCT_A10010_007: % Households: with a Householder Who Is Some Other Race Alone
+      PCT_A10010_008: % Households: with a Householder Who Is Two or More Races
+      PCT_A10010_009: % Households: with a Householder Who Is Hispanic or Latino
+      PCT_A10010_010: % Households: with a Householder Who Is White Alone, Not  Hispanic or Latino
+      A03001B_001:    Renter-Occupied Housing Units
+      A03001B_002:    Renter-Occupied Housing Units: White Alone Householder
+      A03001B_003:    Renter-Occupied Housing Units: Black or African American Alone Householder
+      A03001B_004:    Renter-Occupied Housing Units: American Indian and Alaska Native Alone Householder
+      A03001B_005:    Renter-Occupied Housing Units: Asian Alone Householder
+      A03001B_006:    Renter-Occupied Housing Units: Native Hawaiian and Other Pacific Islander Alone Householder
+      A03001B_007:    Renter-Occupied Housing Units: Some Other Race Alone Householder
+      A03001B_008:    Renter-Occupied Housing Units: Two or More Races Householder
+      A03001B_009:    Renter-Occupied Housing Units: White Alone, Not Hispanic or Latino Householder
+      A03001B_010:    Renter-Occupied Housing Units: Hispanic or Latino Householder
+      PCT_A03001B_002: % Renter-Occupied Housing Units: White Alone Householder
+      PCT_A03001B_003: % Renter-Occupied Housing Units: Black or African American Alone Householder
+      PCT_A03001B_004: % Renter-Occupied Housing Units: American Indian and Alaska Native Alone Householder
+      PCT_A03001B_005: % Renter-Occupied Housing Units: Asian Alone Householder
+      PCT_A03001B_006: % Renter-Occupied Housing Units: Native Hawaiian and Other Pacific Islander Alone Householder
+      PCT_A03001B_007: % Renter-Occupied Housing Units: Some Other Race Alone Householder
+      PCT_A03001B_008: % Renter-Occupied Housing Units: Two or More Races Householder
+      PCT_A03001B_009: % Renter-Occupied Housing Units: White Alone, Not Hispanic or Latino Householder
+      PCT_A03001B_010: % Renter-Occupied Housing Units: Hispanic or Latino Householder
+      A10023_001:     Occupied Housing Units
+      A10023_002:     Occupied Housing Units: Hispanic or Latino Householder
+      A10023_003:     Occupied Housing Units: Not Hispanic or Latino Householder
+      PCT_A10023_002: % Occupied Housing Units: Hispanic or Latino Householder
+      PCT_A10023_003: % Occupied Housing Units: Not Hispanic or Latino Householder
+      A10020_001:     Occupied Housing Units
+      A10020_002:     Occupied Housing Units: Householder 15 to 24 Years
+      A10020_003:     Occupied Housing Units: Householder 25 to 34 Years
+      A10020_004:     Occupied Housing Units: Householder 35 to 44 Years
+      A10020_005:     Occupied Housing Units: Householder 45 to 54 Years
+      A10020_006:     Occupied Housing Units: Householder 55 to 59 Years
+      A10020_007:     Occupied Housing Units: Householder 60 to 64 Years
+      A10020_008:     Occupied Housing Units: Householder 65 to 74 Years
+      A10020_009:     Occupied Housing Units: Householder 75 to 84 Years
+      A10020_010:     Occupied Housing Units: Householder 85 Years and Over
+      PCT_A10020_002: % Occupied Housing Units: Householder 15 to 24 Years
+      PCT_A10020_003: % Occupied Housing Units: Householder 25 to 34 Years
+      PCT_A10020_004: % Occupied Housing Units: Householder 35 to 44 Years
+      PCT_A10020_005: % Occupied Housing Units: Householder 45 to 54 Years
+      PCT_A10020_006: % Occupied Housing Units: Householder 55 to 59 Years
+      PCT_A10020_007: % Occupied Housing Units: Householder 60 to 64 Years
+      PCT_A10020_008: % Occupied Housing Units: Householder 65 to 74 Years
+      PCT_A10020_009: % Occupied Housing Units: Householder 75 to 84 Years
+      PCT_A10020_010: % Occupied Housing Units: Householder 85 Years and Over
+      A01003B_001:    Renter-Occupied Housing Units
+      A01003B_002:    Renter-Occupied Housing Units: Householder 15 to 24 Years
+      A01003B_003:    Renter-Occupied Housing Units: Householder 25 to 34 Years
+      A01003B_004:    Renter-Occupied Housing Units: Householder 35 to 44 Years
+      A01003B_005:    Renter-Occupied Housing Units: Householder 45 to 54 Years
+      A01003B_006:    Renter-Occupied Housing Units: Householder 55 to 59 Years
+      A01003B_007:    Renter-Occupied Housing Units: Householder 60 to 64 Years
+      A01003B_008:    Renter-Occupied Housing Units: Householder 65 to 74 Years
+      A01003B_009:    Renter-Occupied Housing Units: Householder 75 to 84 Years
+      A01003B_010:    Renter-Occupied Housing Units: Householder 85 Years and Over
+      PCT_A01003B_002: % Renter-Occupied Housing Units: Householder 15 to 24 Years
+      PCT_A01003B_003: % Renter-Occupied Housing Units: Householder 25 to 34 Years
+      PCT_A01003B_004: % Renter-Occupied Housing Units: Householder 35 to 44 Years
+      PCT_A01003B_005: % Renter-Occupied Housing Units: Householder 45 to 54 Years
+      PCT_A01003B_006: % Renter-Occupied Housing Units: Householder 55 to 59 Years
+      PCT_A01003B_007: % Renter-Occupied Housing Units: Householder 60 to 64 Years
+      PCT_A01003B_008: % Renter-Occupied Housing Units: Householder 65 to 74 Years
+      PCT_A01003B_009: % Renter-Occupied Housing Units: Householder 75 to 84 Years
+      PCT_A01003B_010: % Renter-Occupied Housing Units: Householder 85 Years and Over
+      A10007A_001:    Total
+      A10007A_002:    Total: In Households
+      A10007A_003:    Total: In Households: Householder
+      A10007A_004:    Total: In Households: Householder: Male
+      A10007A_005:    Total: In Households: Householder: Male: Living Alone
+      A10007A_006:    Total: In Households: Householder: Male: Not Living Alone
+      A10007A_007:    Total:   Female
+      A10007A_008:    Total:   Female: Living Alone
+      A10007A_009:    Total:   Female: Not Living Alone
+      A10007A_010:    Total:  Opposite-Sex Spouse
+      A10007A_011:    Total:  Same-Sex Spouse
+      A10007A_012:    Total:  Opposite-Sex Unmarried Partner
+      A10007A_013:    Total:  Same-Sex Unmarried Partner
+      A10007A_014:    Total:  Child
+      A10007A_015:    Total:  Child: Biological Child
+      A10007A_016:    Total:  Child: Adopted Child
+      A10007A_017:    Total:  Child: Stepchild
+      A10007A_018:    Total:  Grandchild
+      A10007A_019:    Total:  Brother Or Sister
+      A10007A_020:    Total:  Parent
+      A10007A_021:    Total:  Parent-In-Law
+      A10007A_022:    Total:  Son-In-Law Or Daughter-In-Law
+      A10007A_023:    Total:  Other Relatives
+      A10007A_024:    Total:  Foster Child
+      A10007A_025:    Total:  Other Nonrelatives
+      A10007A_026:    Total: In Group Quarters
+      PCT_A10007A_002: % Total: In Households
+      PCT_A10007A_003: % Total: In Households: Householder
+      PCT_A10007A_004: % Total: In Households: Householder: Male
+      PCT_A10007A_005: % Total: In Households: Householder: Male: Living Alone
+      PCT_A10007A_006: % Total: In Households: Householder: Male: Not Living Alone
+      PCT_A10007A_007: % Total:   Female
+      PCT_A10007A_008: % Total:   Female: Living Alone
+      PCT_A10007A_009: % Total:   Female: Not Living Alone
+      PCT_A10007A_010: % Total:  Opposite-Sex Spouse
+      PCT_A10007A_011: % Total:  Same-Sex Spouse
+      PCT_A10007A_012: % Total:  Opposite-Sex Unmarried Partner
+      PCT_A10007A_013: % Total:  Same-Sex Unmarried Partner
+      PCT_A10007A_014: % Total:  Child
+      PCT_A10007A_015: % Total:  Child: Biological Child
+      PCT_A10007A_016: % Total:  Child: Adopted Child
+      PCT_A10007A_017: % Total:  Child: Stepchild
+      PCT_A10007A_018: % Total:  Grandchild
+      PCT_A10007A_019: % Total:  Brother Or Sister
+      PCT_A10007A_020: % Total:  Parent
+      PCT_A10007A_021: % Total:  Parent-In-Law
+      PCT_A10007A_022: % Total:  Son-In-Law Or Daughter-In-Law
+      PCT_A10007A_023: % Total:  Other Relatives
+      PCT_A10007A_024: % Total:  Foster Child
+      PCT_A10007A_025: % Total:  Other Nonrelatives
+      PCT_A10007A_026: % Total: In Group Quarters
+      A10003_001:     Average Household Size
+      A10003B_001:    Average Household Size for Renter-Occupied Housing Units
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2022
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13010573
+
+If you have any questions contact info@socialexplorer.com
