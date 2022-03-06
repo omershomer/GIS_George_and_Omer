@@ -26,3 +26,9 @@ There is a large gap in biking infrastructure between the East and West sides of
 
 **A concluding paragraph of what insights you expect to gain from your research. Figure out what other data is important to collect.** <br><br>
 From our research, we hope to gain insight about how cyclying/biking in the City of Los Angeles can be affected by (or affect) gentrification, traffic safety, and a host of sociodemographic factors. As urban planners and avid bikers ourselves, this topic will help understand more clearly the ways in which land-use and urban design bear on the safety of cyclysts across the city.
+
+**Division of Labor
+
+Omer made Gentrification map and chart, Per Capita Income map and chart; 
+George made HIN map and chart, Interactive KSI Map 
+We split the presentation work and storytelling portion. 
